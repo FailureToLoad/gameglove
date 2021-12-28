@@ -1,0 +1,756 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 6196B444
+P 1350 2550
+F 0 "MX7" H 1383 2773 60  0000 C CNN
+F 1 "tab" H 1383 2699 20  0000 C CNN
+F 2 "footprints:MXOnly-1.5U-NoLED" H 725 2525 60  0001 C CNN
+F 3 "" H 725 2525 60  0001 C CNN
+	1    1350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 6196B44A
+P 1300 2850
+F 0 "D7" V 1346 2771 50  0000 R CNN
+F 1 "tab" V 1255 2771 50  0000 R CNN
+F 2 "footprints:D_axial" H 1300 2675 50  0001 C CNN
+F 3 "" H 1300 2850 50  0001 C CNN
+	1    1300 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 6196B450
+P 1850 2550
+F 0 "MX8" H 1883 2773 60  0000 C CNN
+F 1 "Q" H 1883 2699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1225 2525 60  0001 C CNN
+F 3 "" H 1225 2525 60  0001 C CNN
+	1    1850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 6196B456
+P 1800 2850
+F 0 "D8" V 1846 2771 50  0000 R CNN
+F 1 "Q" V 1755 2771 50  0000 R CNN
+F 2 "footprints:D_axial" H 1800 2675 50  0001 C CNN
+F 3 "" H 1800 2850 50  0001 C CNN
+	1    1800 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 6196B45C
+P 2350 2550
+F 0 "MX9" H 2383 2773 60  0000 C CNN
+F 1 "W" H 2383 2699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1725 2525 60  0001 C CNN
+F 3 "" H 1725 2525 60  0001 C CNN
+	1    2350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 6196B462
+P 2300 2850
+F 0 "D9" V 2346 2771 50  0000 R CNN
+F 1 "W" V 2255 2771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2300 2675 50  0001 C CNN
+F 3 "" H 2300 2850 50  0001 C CNN
+	1    2300 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 6196B468
+P 2850 2550
+F 0 "MX10" H 2883 2773 60  0000 C CNN
+F 1 "E" H 2883 2699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2225 2525 60  0001 C CNN
+F 3 "" H 2225 2525 60  0001 C CNN
+	1    2850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 6196B46E
+P 2800 2850
+F 0 "D10" V 2846 2771 50  0000 R CNN
+F 1 "E" V 2755 2771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2800 2675 50  0001 C CNN
+F 3 "" H 2800 2850 50  0001 C CNN
+	1    2800 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 6196B474
+P 3350 2550
+F 0 "MX11" H 3383 2773 60  0000 C CNN
+F 1 "R" H 3383 2699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2725 2525 60  0001 C CNN
+F 3 "" H 2725 2525 60  0001 C CNN
+	1    3350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 6196B47A
+P 3300 2850
+F 0 "D11" V 3346 2771 50  0000 R CNN
+F 1 "R" V 3255 2771 50  0000 R CNN
+F 2 "footprints:D_axial" H 3300 2675 50  0001 C CNN
+F 3 "" H 3300 2850 50  0001 C CNN
+	1    3300 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 6197A25A
+P 1350 3550
+F 0 "MX12" H 1383 3773 60  0000 C CNN
+F 1 "ctrl" H 1383 3699 20  0000 C CNN
+F 2 "footprints:MXOnly-1.75U-NoLED" H 725 3525 60  0001 C CNN
+F 3 "" H 725 3525 60  0001 C CNN
+	1    1350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 6197A260
+P 1300 3850
+F 0 "D12" V 1346 3771 50  0000 R CNN
+F 1 "ctrl" V 1255 3771 50  0000 R CNN
+F 2 "footprints:D_axial" H 1300 3675 50  0001 C CNN
+F 3 "" H 1300 3850 50  0001 C CNN
+	1    1300 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 6197A266
+P 1850 3550
+F 0 "MX13" H 1883 3773 60  0000 C CNN
+F 1 "A" H 1883 3699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1225 3525 60  0001 C CNN
+F 3 "" H 1225 3525 60  0001 C CNN
+	1    1850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 6197A26C
+P 1800 3850
+F 0 "D13" V 1846 3771 50  0000 R CNN
+F 1 "A" V 1755 3771 50  0000 R CNN
+F 2 "footprints:D_axial" H 1800 3675 50  0001 C CNN
+F 3 "" H 1800 3850 50  0001 C CNN
+	1    1800 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 6197A272
+P 2350 3550
+F 0 "MX14" H 2383 3773 60  0000 C CNN
+F 1 "S" H 2383 3699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1725 3525 60  0001 C CNN
+F 3 "" H 1725 3525 60  0001 C CNN
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 6197A278
+P 2300 3850
+F 0 "D14" V 2346 3771 50  0000 R CNN
+F 1 "S" V 2255 3771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2300 3675 50  0001 C CNN
+F 3 "" H 2300 3850 50  0001 C CNN
+	1    2300 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 6197A27E
+P 2850 3550
+F 0 "MX15" H 2883 3773 60  0000 C CNN
+F 1 "D" H 2883 3699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2225 3525 60  0001 C CNN
+F 3 "" H 2225 3525 60  0001 C CNN
+	1    2850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 6197A284
+P 2800 3850
+F 0 "D15" V 2846 3771 50  0000 R CNN
+F 1 "D" V 2755 3771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2800 3675 50  0001 C CNN
+F 3 "" H 2800 3850 50  0001 C CNN
+	1    2800 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 6197A28A
+P 3350 3550
+F 0 "MX16" H 3383 3773 60  0000 C CNN
+F 1 "F" H 3383 3699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2725 3525 60  0001 C CNN
+F 3 "" H 2725 3525 60  0001 C CNN
+	1    3350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 6197A290
+P 3300 3850
+F 0 "D16" V 3346 3771 50  0000 R CNN
+F 1 "F" V 3255 3771 50  0000 R CNN
+F 2 "footprints:D_axial" H 3300 3675 50  0001 C CNN
+F 3 "" H 3300 3850 50  0001 C CNN
+	1    3300 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 6197A296
+P 1350 4550
+F 0 "MX17" H 1383 4773 60  0000 C CNN
+F 1 "shift" H 1383 4699 20  0000 C CNN
+F 2 "footprints:MXOnly-1.75U-NoLED" H 725 4525 60  0001 C CNN
+F 3 "" H 725 4525 60  0001 C CNN
+	1    1350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 6197A29C
+P 1300 4850
+F 0 "D17" V 1346 4771 50  0000 R CNN
+F 1 "shift" V 1255 4771 50  0000 R CNN
+F 2 "footprints:D_axial" H 1300 4675 50  0001 C CNN
+F 3 "" H 1300 4850 50  0001 C CNN
+	1    1300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 6197A2A2
+P 1850 4550
+F 0 "MX18" H 1883 4773 60  0000 C CNN
+F 1 "Z" H 1883 4699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1225 4525 60  0001 C CNN
+F 3 "" H 1225 4525 60  0001 C CNN
+	1    1850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 6197A2A8
+P 1800 4850
+F 0 "D18" V 1846 4771 50  0000 R CNN
+F 1 "Z" V 1755 4771 50  0000 R CNN
+F 2 "footprints:D_axial" H 1800 4675 50  0001 C CNN
+F 3 "" H 1800 4850 50  0001 C CNN
+	1    1800 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 6197A2AE
+P 2350 4550
+F 0 "MX19" H 2383 4773 60  0000 C CNN
+F 1 "X" H 2383 4699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1725 4525 60  0001 C CNN
+F 3 "" H 1725 4525 60  0001 C CNN
+	1    2350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 6197A2B4
+P 2300 4850
+F 0 "D19" V 2346 4771 50  0000 R CNN
+F 1 "X" V 2255 4771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2300 4675 50  0001 C CNN
+F 3 "" H 2300 4850 50  0001 C CNN
+	1    2300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 6197A2BA
+P 2850 4550
+F 0 "MX20" H 2883 4773 60  0000 C CNN
+F 1 "C" H 2883 4699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2225 4525 60  0001 C CNN
+F 3 "" H 2225 4525 60  0001 C CNN
+	1    2850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 6197A2C0
+P 2800 4850
+F 0 "D20" V 2846 4771 50  0000 R CNN
+F 1 "C" V 2755 4771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2800 4675 50  0001 C CNN
+F 3 "" H 2800 4850 50  0001 C CNN
+	1    2800 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 6197A2C6
+P 3350 4550
+F 0 "MX21" H 3383 4773 60  0000 C CNN
+F 1 "V" H 3383 4699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2725 4525 60  0001 C CNN
+F 3 "" H 2725 4525 60  0001 C CNN
+	1    3350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D21
+U 1 1 6197A2CC
+P 3300 4850
+F 0 "D21" V 3346 4771 50  0000 R CNN
+F 1 "V" V 3255 4771 50  0000 R CNN
+F 2 "footprints:D_axial" H 3300 4675 50  0001 C CNN
+F 3 "" H 3300 4850 50  0001 C CNN
+	1    3300 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D22
+U 1 1 619C30BA
+P 2300 5850
+F 0 "D22" V 2346 5771 50  0000 R CNN
+F 1 "pgdn" V 2255 5771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2300 5675 50  0001 C CNN
+F 3 "" H 2300 5850 50  0001 C CNN
+	1    2300 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX22
+U 1 1 619C30B4
+P 2350 5550
+F 0 "MX22" H 2383 5773 60  0000 C CNN
+F 1 "pgdn" H 2383 5699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1725 5525 60  0001 C CNN
+F 3 "" H 1725 5525 60  0001 C CNN
+	1    2350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D23
+U 1 1 619C062E
+P 2800 5850
+F 0 "D23" V 2846 5771 50  0000 R CNN
+F 1 "pgup" V 2755 5771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2800 5675 50  0001 C CNN
+F 3 "" H 2800 5850 50  0001 C CNN
+	1    2800 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX23
+U 1 1 619C0628
+P 2850 5550
+F 0 "MX23" H 2883 5773 60  0000 C CNN
+F 1 "pgup" H 2883 5699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2225 5525 60  0001 C CNN
+F 3 "" H 2225 5525 60  0001 C CNN
+	1    2850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D24
+U 1 1 619BF32A
+P 3300 5850
+F 0 "D24" V 3346 5771 50  0000 R CNN
+F 1 "space" V 3255 5771 50  0000 R CNN
+F 2 "footprints:D_axial" H 3300 5675 50  0001 C CNN
+F 3 "" H 3300 5850 50  0001 C CNN
+	1    3300 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX24
+U 1 1 619BF324
+P 3350 5550
+F 0 "MX24" H 3383 5773 60  0000 C CNN
+F 1 "space" H 3383 5699 20  0000 C CNN
+F 2 "footprints:MXOnly-2U-NoLED" H 2725 5525 60  0001 C CNN
+F 3 "" H 2725 5525 60  0001 C CNN
+	1    3350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 619B5590
+P 3800 1850
+F 0 "D6" V 3846 1771 50  0000 R CNN
+F 1 "esc" V 3755 1771 50  0000 R CNN
+F 2 "footprints:D_axial" H 3800 1675 50  0001 C CNN
+F 3 "" H 3800 1850 50  0001 C CNN
+	1    3800 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 619B558A
+P 3850 1550
+F 0 "MX6" H 3883 1773 60  0000 C CNN
+F 1 "esc" H 3883 1699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 3225 1525 60  0001 C CNN
+F 3 "" H 3225 1525 60  0001 C CNN
+	1    3850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 6195F71C
+P 3300 1850
+F 0 "D5" V 3346 1771 50  0000 R CNN
+F 1 "4" V 3255 1771 50  0000 R CNN
+F 2 "footprints:D_axial" H 3300 1675 50  0001 C CNN
+F 3 "" H 3300 1850 50  0001 C CNN
+	1    3300 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 6195F716
+P 3350 1550
+F 0 "MX5" H 3383 1773 60  0000 C CNN
+F 1 "4" H 3383 1699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2725 1525 60  0001 C CNN
+F 3 "" H 2725 1525 60  0001 C CNN
+	1    3350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 6195C23A
+P 2800 1850
+F 0 "D4" V 2846 1771 50  0000 R CNN
+F 1 "3" V 2755 1771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2800 1675 50  0001 C CNN
+F 3 "" H 2800 1850 50  0001 C CNN
+	1    2800 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 6195C234
+P 2850 1550
+F 0 "MX4" H 2883 1773 60  0000 C CNN
+F 1 "3" H 2883 1699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 2225 1525 60  0001 C CNN
+F 3 "" H 2225 1525 60  0001 C CNN
+	1    2850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 6195C22E
+P 2300 1850
+F 0 "D3" V 2346 1771 50  0000 R CNN
+F 1 "2" V 2255 1771 50  0000 R CNN
+F 2 "footprints:D_axial" H 2300 1675 50  0001 C CNN
+F 3 "" H 2300 1850 50  0001 C CNN
+	1    2300 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 6195C228
+P 2350 1550
+F 0 "MX3" H 2383 1773 60  0000 C CNN
+F 1 "2" H 2383 1699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1725 1525 60  0001 C CNN
+F 3 "" H 1725 1525 60  0001 C CNN
+	1    2350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 61955890
+P 1800 1850
+F 0 "D2" V 1846 1771 50  0000 R CNN
+F 1 "1" V 1755 1771 50  0000 R CNN
+F 2 "footprints:D_axial" H 1800 1675 50  0001 C CNN
+F 3 "" H 1800 1850 50  0001 C CNN
+	1    1800 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 6195588A
+P 1850 1550
+F 0 "MX2" H 1883 1773 60  0000 C CNN
+F 1 "1" H 1883 1699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 1225 1525 60  0001 C CNN
+F 3 "" H 1225 1525 60  0001 C CNN
+	1    1850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 6194EEE9
+P 1300 1850
+F 0 "D1" V 1346 1771 50  0000 R CNN
+F 1 "grave" V 1255 1771 50  0000 R CNN
+F 2 "footprints:D_axial" H 1300 1675 50  0001 C CNN
+F 3 "" H 1300 1850 50  0001 C CNN
+	1    1300 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 6193BAC2
+P 1350 1550
+F 0 "MX1" H 1383 1773 60  0000 C CNN
+F 1 "grave" H 1383 1699 20  0000 C CNN
+F 2 "footprints:MXOnly-1U-NoLED" H 725 1525 60  0001 C CNN
+F 3 "" H 725 1525 60  0001 C CNN
+	1    1350 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1500 1500 2500
+Wire Wire Line
+	1500 2500 1500 3500
+Connection ~ 1500 2500
+Wire Wire Line
+	1500 3500 1500 4500
+Connection ~ 1500 3500
+Wire Wire Line
+	2000 1500 2000 2500
+Wire Wire Line
+	2000 2500 2000 3500
+Connection ~ 2000 2500
+Wire Wire Line
+	2000 3500 2000 4500
+Connection ~ 2000 3500
+Wire Wire Line
+	2500 1500 2500 2500
+Wire Wire Line
+	2500 2500 2500 3500
+Connection ~ 2500 2500
+Wire Wire Line
+	2500 3500 2500 4500
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 4500 2500 5500
+Connection ~ 2500 4500
+Wire Wire Line
+	3000 1500 3000 2500
+Wire Wire Line
+	3000 2500 3000 3500
+Connection ~ 3000 2500
+Wire Wire Line
+	3000 3500 3000 4500
+Connection ~ 3000 3500
+Wire Wire Line
+	3000 4500 3000 5500
+Connection ~ 3000 4500
+Wire Wire Line
+	3500 1500 3500 2500
+Wire Wire Line
+	3500 2500 3500 3500
+Connection ~ 3500 2500
+Wire Wire Line
+	3500 3500 3500 4500
+Connection ~ 3500 3500
+Wire Wire Line
+	3500 4500 3500 5500
+Connection ~ 3500 4500
+Wire Wire Line
+	1300 2000 1800 2000
+Connection ~ 1800 2000
+Wire Wire Line
+	1800 2000 2300 2000
+Connection ~ 2300 2000
+Wire Wire Line
+	2300 2000 2800 2000
+Connection ~ 2800 2000
+Wire Wire Line
+	2800 2000 3300 2000
+Connection ~ 3300 2000
+Wire Wire Line
+	3300 2000 3800 2000
+Wire Wire Line
+	1300 3000 1800 3000
+Connection ~ 1800 3000
+Wire Wire Line
+	1800 3000 2300 3000
+Connection ~ 2300 3000
+Wire Wire Line
+	2300 3000 2800 3000
+Connection ~ 2800 3000
+Wire Wire Line
+	2800 3000 3300 3000
+Wire Wire Line
+	1300 4000 1800 4000
+Connection ~ 1800 4000
+Wire Wire Line
+	1800 4000 2300 4000
+Connection ~ 2300 4000
+Wire Wire Line
+	2300 4000 2800 4000
+Connection ~ 2800 4000
+Wire Wire Line
+	2800 4000 3300 4000
+Wire Wire Line
+	1300 5000 1800 5000
+Connection ~ 1800 5000
+Wire Wire Line
+	1800 5000 2300 5000
+Connection ~ 2300 5000
+Wire Wire Line
+	2300 5000 2800 5000
+Connection ~ 2800 5000
+Wire Wire Line
+	2800 5000 3300 5000
+Wire Wire Line
+	2300 6000 2800 6000
+Connection ~ 2800 6000
+Wire Wire Line
+	2800 6000 3300 6000
+Text GLabel 1300 2000 0    50   Input ~ 0
+r1
+Text GLabel 1300 3000 0    50   Input ~ 0
+r2
+Text GLabel 1300 4000 0    50   Input ~ 0
+r3
+Text GLabel 1300 5000 0    50   Input ~ 0
+r4
+Text GLabel 2300 6000 0    50   Input ~ 0
+r5
+Text GLabel 1500 1500 1    50   Input ~ 0
+c1
+Text GLabel 2500 1500 1    50   Input ~ 0
+c3
+Text GLabel 2000 1500 1    50   Input ~ 0
+c2
+Text GLabel 3000 1500 1    50   Input ~ 0
+c4
+Text GLabel 4000 1500 1    50   Input ~ 0
+c6
+Text GLabel 3500 1500 1    50   Input ~ 0
+c5
+NoConn ~ 7150 2100
+NoConn ~ 8550 2100
+NoConn ~ 8550 2300
+NoConn ~ 8550 2400
+NoConn ~ 8550 2500
+NoConn ~ 8550 2600
+NoConn ~ 8550 2800
+NoConn ~ 8550 2700
+NoConn ~ 8550 2900
+NoConn ~ 8550 3000
+NoConn ~ 8550 3100
+NoConn ~ 7150 2200
+Text GLabel 7150 2600 0    50   Input ~ 0
+r1
+Text GLabel 7150 2700 0    50   Input ~ 0
+r2
+Text GLabel 7150 2800 0    50   Input ~ 0
+r3
+Text GLabel 7150 2900 0    50   Input ~ 0
+r4
+Text GLabel 8550 3200 3    50   Input ~ 0
+r5
+$Comp
+L keebio:Elite-C U1
+U 1 1 61933DA1
+P 7850 2650
+F 0 "U1" H 7850 3487 60  0000 C CNN
+F 1 "Elite-C" H 7850 3381 60  0000 C CNN
+F 2 "footprints:Elite-C-castellated-29pin-holes" V 8900 150 60  0001 C CNN
+F 3 "" V 8900 150 60  0001 C CNN
+	1    7850 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 3600 3    50   Input ~ 0
+c1
+Text GLabel 7850 3600 3    50   Input ~ 0
+c3
+Text GLabel 7650 3600 3    50   Input ~ 0
+c2
+Text GLabel 7950 3600 3    50   Input ~ 0
+c4
+Text GLabel 7150 2500 0    50   Input ~ 0
+c6
+Text GLabel 8050 3600 3    50   Input ~ 0
+c5
+$Comp
+L power:GND #PWR0101
+U 1 1 61B472A1
+P 8700 2250
+F 0 "#PWR0101" H 8700 2000 50  0001 C CNN
+F 1 "GND" H 8705 2077 50  0000 C CNN
+F 2 "" H 8700 2250 50  0001 C CNN
+F 3 "" H 8700 2250 50  0001 C CNN
+	1    8700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2200 8700 2200
+Wire Wire Line
+	8700 2200 8700 2250
+$Comp
+L power:GND #PWR0102
+U 1 1 61B47FA5
+P 6900 2300
+F 0 "#PWR0102" H 6900 2050 50  0001 C CNN
+F 1 "GND" H 6905 2127 50  0000 C CNN
+F 2 "" H 6900 2300 50  0001 C CNN
+F 3 "" H 6900 2300 50  0001 C CNN
+	1    6900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61B48290
+P 6750 2400
+F 0 "#PWR0103" H 6750 2150 50  0001 C CNN
+F 1 "GND" H 6755 2227 50  0000 C CNN
+F 2 "" H 6750 2400 50  0001 C CNN
+F 3 "" H 6750 2400 50  0001 C CNN
+	1    6750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2400 6750 2400
+Wire Wire Line
+	6900 2300 7150 2300
+NoConn ~ 7150 3000
+NoConn ~ 7150 3100
+NoConn ~ 7150 3200
+$EndSCHEMATC
