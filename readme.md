@@ -1,6 +1,6 @@
 # Game Glove
 
-A minimal macropad for pc gaming. 
+A minimal macropad for pc gaming.
 
 ## Requirements
 
@@ -25,6 +25,8 @@ Pure ortholinear was uncomfortable for me, but column staggered ortho made a lot
 From trying ortholinear, my hands felt fairly cramped with 1u modifier keys.
 
 ## Results
+
+![v1](glove-layout.png)
 
 After a fair amount of iteration and prototyping, I've landed on the following.
 
