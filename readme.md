@@ -8,21 +8,21 @@ Having gotten tired of trying different keyboard layouts that all always felt sl
 
 ### Small footprint
 
-This is a perpipheral that will sit along side my normal keyboard so it shouldn't be half the size of a 60% at most.
+This is a perpipheral that will sit along side my normal keyboard so it should be half the size of a 60% at most.
 
 ### Should be able to press the 2 and 3 keys with middle finger
 
-Its muscle memory from WoW I've never been able to shake.
+I can't shake this very specific muscle memory, so may as well design around it.
 
 ### Row aligned, column staggered, WASD oriented
 
-Admittedly, I've never been able to hit keys like Z, X, and C reliably. My brain refuses to memorize the meat signals to reach down, then laterally. That led me to at least remove the lateral movement by going for something ortholinear-ish.
+I've never been able to hit keys like Z, X, and C reliably. My brain refuses to memorize the meat signals to reach down, then laterally. That led me to at least remove the lateral movement by going for something ortholinear-ish.
 
 Pure ortholinear was uncomfortable for me, but column staggered ortho made a lot of sense. The problem is that most column staggered layouts base the spacing off of home-row hand positioning. This is for gaming, so the spacing should be oriented around WASD positioning.
 
 ### Modifier keys must be larger than 1u
 
-From trying ortholinear, my hands felt fairly cramped with 1u modifier keys.
+From trying pure ortholinear, my hands felt fairly cramped with 1u modifier keys.
 
 ## Results
 
